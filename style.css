@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 40px;
+   justify-content: center;
+}
+.intro{
+    display: grid;
+   grid-template-columns: auto auto;
+   
+   
+}
+.button{
+    border: solid hsl(322, 100%, 66%) 1px;
+    color: hsl(322, 100%, 66%); 
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 10px;
+    width: 100px; 
+}
+.heading-1{
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+.part-1{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.description-1{
+    color: hsl(192, 100%, 9%); 
+    width: 400px;
+    margin-bottom: 30px; 
+   display: grid;
+  margin-left: 140px;
+}
+.button-2{
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(321, 100%, 78%);
+    width: 200px;
+    padding: 15px;
+    margin-left: 200px;
+    border-radius: 30px;
+   
+}
+.illustration-1{
+    margin-left: 80px;
+    width: 400px;
+}
+.part-2{
+    display: flex;
+    justify-content: 1fr 1fr;
+    justify-content: center;
+    gap: 180px;
+   margin-bottom: 20px;
+
+.metrics-1{
+    .numbers-1{
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    margin-bottom: 20px;}
+    }
+
+.metrics-2{
+   .numbers-2{
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    margin-bottom: 20px;
+   }
+           
+}
+}
+.part-3{
+    /* background-image: url("images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+   height: 400px;
+    background-image: url("images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+   height: 500px; */
+   display: grid;
+   grid-template-columns: auto auto;
+   /* /* gap: 360px; */
+   width: 50%; 
+   /* height: auto; */ */
+
+.description-2{
+    width: 50%;
+    .heading-2{
+    color: hsl(192, 100%, 9%);
+}
+    .details-2{
+    color: hsl(192, 100%, 9%);
+    width: 90px;
+   
+    }
+}   
+ .illustration-4{
+   
+    justify-content: right;
+ }  
+}
+.part-4{
+    display: grid;
+   grid-template-columns: auto auto;
+   width: 50%;
+}
+
+.part-5{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.part-6{
+.heading-5{
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+}
+.button-3{
+    color: hsl(321, 100%, 78%);
+    text-align: center;  
+}
+}
